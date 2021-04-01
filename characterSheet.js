@@ -28,17 +28,7 @@ const data = {
       defect: 1,
       area: '',
     },
-    {
-      name: 'Canivete',
-      type: 'Briga',
-      damage: '1d10',
-      numCurrent: '',
-      numMax: '',
-      attack: '1/2',
-      reach: '',
-      defect: 1,
-      area: '',
-    },
+  
   ],
   attributes: [
     {
@@ -47,31 +37,31 @@ const data = {
     },
     {
       type: 'Constituição',
-      amount: 10,
+      amount: 20,
     },
     {
       type: 'Destreza',
-      amount: 10,
+      amount: 50,
     },
     {
       type: 'Educação',
-      amount: 10,
+      amount: 50,
     },
     {
       type: 'Força',
-      amount: 10,
+      amount: 20,
     },
     {
       type: 'Inteligência',
-      amount: 10,
+      amount: 33,
     },
     {
       type: 'Poder',
-      amount: 10,
+      amount: 68,
     },
     {
       type: 'Sorte',
-      amount: 10,
+      amount: 95,
     },
   ],
 }
@@ -86,6 +76,7 @@ data.attributes.map((attribute, index) => {
 
 $('#name').val(data.name)
 $('#player').val(data.player)
+
 $('#occupation').val(data.occupation)
 $('#age').val(data.age)
 $('#sex').val(data.sex)
